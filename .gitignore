@@ -1,6 +1,11 @@
 composer.phar
 vendor/
-
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+.vagrant/
+.idea/
+node_modules/
+bower_components/
+web/css/foundation.css
+web/css/normalize.css
+web/js/foundation.min.js
+web/js/jquery.min.js
+web/js/modernizr.js
