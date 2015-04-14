@@ -9,6 +9,7 @@ gulp.task('copy-foundation', function() {
         [
             'bower_components/foundation/js/foundation.min.js',
             'bower_components/jquery/dist/jquery.min.js',
+            'bower_components/jquery/dist/jquery.min.map',
             'bower_components/modernizr/modernizr.js'
         ]
     ).pipe(gulp.dest('web/js/'));
@@ -18,7 +19,9 @@ gulp.task('copy-foundation', function() {
     gulp.src(
         [
             'bower_components/foundation/css/normalize.css',
-            'bower_components/foundation/css/foundation.css'
+            'bower_components/foundation/css/foundation.css',
+            'bower_components/foundation/css/normalize.css.map',
+            'bower_components/foundation/css/foundation.css.map'
         ]
     ).pipe(gulp.dest('web/css/'));
 
